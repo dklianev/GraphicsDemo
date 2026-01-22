@@ -1,0 +1,17 @@
+# Build and Debug
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+.Consol*
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+*.png

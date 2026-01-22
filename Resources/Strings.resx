@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Заглавия и основни текстове -->
+  <data name="AppTitle" xml:space="preserve">
+    <value>Графична Демонстрация</value>
+    <comment>Заглавие на приложението</comment>
+  </data>
+  <data name="StudentInfo" xml:space="preserve">
+    <value>Студент: Dimitar Klianev | Ф.Н.: F112194</value>
+    <comment>Информация за студента</comment>
+  </data>
+  <!-- Меню Файл -->
+  <data name="MenuFile" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="MenuFileNew" xml:space="preserve">
+    <value>Нов</value>
+  </data>
+  <data name="MenuFileOpen" xml:space="preserve">
+    <value>Отвори изображение...</value>
+  </data>
+  <data name="MenuFileSave" xml:space="preserve">
+    <value>Запази като...</value>
+  </data>
+  <data name="MenuFileExit" xml:space="preserve">
+    <value>Изход</value>
+  </data>
+  <!-- Меню Редактиране -->
+  <data name="MenuEdit" xml:space="preserve">
+    <value>Редактиране</value>
+  </data>
+  <data name="MenuEditClear" xml:space="preserve">
+    <value>Изчисти всичко</value>
+  </data>
+  <data name="MenuEditColor" xml:space="preserve">
+    <value>Избери цвят...</value>
+  </data>
+  <data name="MenuEditFont" xml:space="preserve">
+    <value>Избери шрифт...</value>
+  </data>
+  <!-- Меню Изглед -->
+  <data name="MenuView" xml:space="preserve">
+    <value>Изглед</value>
+  </data>
+  <data name="MenuViewGraphics" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="MenuViewAnimation" xml:space="preserve">
+    <value>Анимация</value>
+  </data>
+  <data name="MenuViewText" xml:space="preserve">
+    <value>Стилизиран текст</value>
+  </data>
+  <!-- Меню Език -->
+  <data name="MenuLanguage" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="MenuLanguageBulgarian" xml:space="preserve">
+    <value>Български</value>
+  </data>
+  <data name="MenuLanguageEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <!-- Меню Помощ -->
+  <data name="MenuHelp" xml:space="preserve">
+    <value>Помощ</value>
+  </data>
+  <data name="MenuHelpAbout" xml:space="preserve">
+    <value>За програмата</value>
+  </data>
+  <!-- Бутони -->
+  <data name="BtnDrawRect" xml:space="preserve">
+    <value>Правоъгълник</value>
+  </data>
+  <data name="BtnDrawEllipse" xml:space="preserve">
+    <value>Елипса</value>
+  </data>
+  <data name="BtnDrawLine" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="BtnDrawText" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="BtnClear" xml:space="preserve">
+    <value>Изчисти</value>
+  </data>
+  <data name="BtnStart" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="BtnStop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="BtnAddShape" xml:space="preserve">
+    <value>Добави фигура</value>
+  </data>
+  <!-- Етикети -->
+  <data name="LblDrawingArea" xml:space="preserve">
+    <value>Област за рисуване</value>
+  </data>
+  <data name="LblAnimationArea" xml:space="preserve">
+    <value>Анимация</value>
+  </data>
+  <data name="LblTextDemo" xml:space="preserve">
+    <value>Демо текст</value>
+  </data>
+  <!-- Съобщения -->
+  <data name="MsgAbout" xml:space="preserve">
+    <value>Графична Демонстрация v1.0
+
+Проект по Компютърна графика
+Втори курс
+
+Студент: Dimitar Klianev
+Факултетен номер: F112194
+
+© 2026 Всички права запазени</value>
+  </data>
+  <data name="MsgLanguageChanged" xml:space="preserve">
+    <value>Езикът беше променен успешно!</value>
+  </data>
+</root>
